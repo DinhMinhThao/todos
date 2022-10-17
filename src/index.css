@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 100px;
+  padding: 0;
+  border: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+#todo,
+select {
+  padding: 4px 10px;
+}
+.grup-todo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.item {
+  margin-top: 10px;
+  width: 50%;
+}
+.item-padding {
+  padding: 0 5px;
+}
+.item-padding-1 {
+  background-color: green;
+  padding: 20px;
+}
+
+.item-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+  font-weight: 600;
+}
+label {
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 4px 10px;
+  background-color: rgb(50, 152, 22);
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+.btn:hover,
+.btn-grup button:hover {
+  transform: scale(1.1);
+  filter: brightness(110%);
+  cursor: pointer;
+}
+
+.btn-grup {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.btn-grup button {
+  margin-left: 10px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.input-edit {
+  background-color: white;
+  width: 200px;
+  padding: 4px 10px;
+}
+.undon button {
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.undon {
+  display: flex;
+  align-items: center;
+}
+input {
+  outline: none;
+}
